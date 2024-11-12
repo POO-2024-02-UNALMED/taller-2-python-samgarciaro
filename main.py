@@ -14,7 +14,7 @@ class Auto:
         self.precio = 0
         self.asientos = []
         self.marca = None
-        self.motor = Motor
+        self.motor = Motor()
         self.registro = 0
         cantidadCreados = 0
 
